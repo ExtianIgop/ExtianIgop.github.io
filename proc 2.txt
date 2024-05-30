@@ -1,0 +1,130 @@
+        End If
+        
+        If Worksheets("Validation").Cells(ValRow2, 3).Value <> "" And Worksheets("Validation").Cells(ValRow2, 13).Value = "Andhra Pradesh Grameena Vikas Bank" Then
+            
+            If Len(Worksheets("Validation").Cells(ValRow2, 6).Value) = 15 Then
+                
+                Worksheets("Validation").Cells(ValRow2, 15).Value = ""
+            Else
+            
+            If Len(Worksheets("Validation").Cells(ValRow2, 6).Value) <> 15 Then
+            
+                Worksheets("Validation").Cells(ValRow2, 1).EntireRow.Interior.Color = RGB(255, 199, 206)
+                Worksheets("Validation").Cells(ValRow2, 15).Value = "Invalid Account No"
+                CountErr2 = CountErr2 + 1
+
+             End If
+             End If
+             
+        End If
+        
+        If Worksheets("Validation").Cells(ValRow2, 3).Value <> "" And Worksheets("Validation").Cells(ValRow2, 13).Value = "Karur Vysya Bank" Then
+            
+            If Len(Worksheets("Validation").Cells(ValRow2, 6).Value) = 15 Then
+                
+                Worksheets("Validation").Cells(ValRow2, 15).Value = ""
+            Else
+            
+            If Len(Worksheets("Validation").Cells(ValRow2, 6).Value) <> 15 Then
+            
+                Worksheets("Validation").Cells(ValRow2, 1).EntireRow.Interior.Color = RGB(255, 199, 206)
+                Worksheets("Validation").Cells(ValRow2, 15).Value = "Invalid Account No"
+                CountErr2 = CountErr2 + 1
+
+             End If
+             End If
+             
+        End If
+        
+        If Worksheets("Validation").Cells(ValRow2, 3).Value <> "" And Worksheets("Validation").Cells(ValRow2, 13).Value = "Hongkong and Shanghai Banking Corporation Limited India" Then
+            
+            If Len(Worksheets("Validation").Cells(ValRow2, 6).Value) = 15 Then
+                
+                Worksheets("Validation").Cells(ValRow2, 15).Value = ""
+            Else
+            
+            If Len(Worksheets("Validation").Cells(ValRow2, 6).Value) <> 15 Then
+            
+                Worksheets("Validation").Cells(ValRow2, 1).EntireRow.Interior.Color = RGB(255, 199, 206)
+                Worksheets("Validation").Cells(ValRow2, 15).Value = "Invalid Account No"
+                CountErr2 = CountErr2 + 1
+
+             End If
+             End If
+             
+        End If
+        
+        If Worksheets("Validation").Cells(ValRow2, 3).Value <> "" And Worksheets("Validation").Cells(ValRow2, 13).Value = "Ujjivan Small Finance Bank" Then
+            
+            If Len(Worksheets("Validation").Cells(ValRow2, 6).Value) = 15 Then
+                
+                Worksheets("Validation").Cells(ValRow2, 15).Value = ""
+            Else
+            
+            If Len(Worksheets("Validation").Cells(ValRow2, 6).Value) <> 15 Then
+            
+                Worksheets("Validation").Cells(ValRow2, 1).EntireRow.Interior.Color = RGB(255, 199, 206)
+                Worksheets("Validation").Cells(ValRow2, 15).Value = "Invalid Account No"
+                CountErr2 = CountErr2 + 1
+
+             End If
+             End If
+             
+        End If
+        
+        If Worksheets("Validation").Cells(ValRow2, 3).Value <> "" And Worksheets("Validation").Cells(ValRow2, 13).Value = "Lakshmi Vilas Bank" Then
+            
+            If Len(Worksheets("Validation").Cells(ValRow2, 6).Value) = 15 Then
+                
+                Worksheets("Validation").Cells(ValRow2, 15).Value = ""
+            Else
+            
+            If Len(Worksheets("Validation").Cells(ValRow2, 6).Value) <> 15 Then
+            
+                Worksheets("Validation").Cells(ValRow2, 1).EntireRow.Interior.Color = RGB(255, 199, 206)
+                Worksheets("Validation").Cells(ValRow2, 15).Value = "Invalid Account No"
+                CountErr2 = CountErr2 + 1
+
+             End If
+             End If
+             
+        End If
+        
+        If Worksheets("Validation").Cells(ValRow2, 3).Value <> "" And Worksheets("Validation").Cells(ValRow2, 13).Value = "Punjab and Maharashtra Co-operative Bank Limited" Then
+            
+            If Len(Worksheets("Validation").Cells(ValRow2, 6).Value) = 15 Then
+                
+                Worksheets("Validation").Cells(ValRow2, 15).Value = ""
+            Else
+            
+            If Len(Worksheets("Validation").Cells(ValRow2, 6).Value) <> 15 Then
+            
+                Worksheets("Validation").Cells(ValRow2, 1).EntireRow.Interior.Color = RGB(255, 199, 206)
+                Worksheets("Validation").Cells(ValRow2, 15).Value = "Invalid Account No"
+                CountErr2 = CountErr2 + 1
+
+             End If
+             End If
+             
+        End If
+        
+        If Worksheets("Validation").Cells(ValRow2, 3).Value <> "" And Worksheets("Validation").Cells(ValRow2, 13).Value = "City Union Bank" Then
+            
+            If Len(Worksheets("Validation").Cells(ValRow2, 6).Value) = 15 Then
+                
+                Worksheets("Validation").Cells(ValRow2, 15).Value = ""
+            Else
+            
+            If Len(Worksheets("Validation").Cells(ValRow2, 6).Value) <> 15 Then
+            
+                Worksheets("Validation").Cells(ValRow2, 1).EntireRow.Interior.Color = RGB(255, 199, 206)
+                Worksheets("Validation").Cells(ValRow2, 15).Value = "Invalid Account No"
+                CountErr2 = CountErr2 + 1
+
+             End If
+             End If
+             
+        End If
+        
+
+        
